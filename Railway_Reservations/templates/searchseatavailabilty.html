@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 align="center">Availabilty Seats</h1>
+<form action="/pay/" method="post">
+    {% csrf_token %}
+<table align="center" border="2" bgcolor="#00ff7f">
+    <tr>
+         <td>
+            <button name="chennai seats available" >Chennai 5 Seats available</button>
+        </td>
+    </tr>
+          <tr>
+              <td>
+            <button name="Goa 3 Seats available">Goa 3 Seats available</button>
+              </td>
+              </tr>
+          <tr>
+              <td>
+            <button name="Kerala 6 Seats available">Kerala 6 Seats available</button>
+              </td>
+          </tr>
+          <tr>
+              <td>
+            <button name="Hyderabad 7 Seats available">Hyderabad 7 Seats available</button>
+              </td>
+              </tr>
+            <tr>
+                <td>
+                <button name="vijayawada 8 Seats available">vijayawada 8 Seats available</button>
+                </td>
+                </tr>
+              </table>
+</form>
+</body>
+</html>
